@@ -145,6 +145,13 @@
         font-size: 1.3rem;
     }
 
+    #search{
+       
+        font-size: 1.5rem;
+        margin-left: 10px;
+        width: 5vw;
+    }
+
 }
 
 @media screen and (max-width:450px) {
@@ -170,6 +177,44 @@
 
     #result {
         font-size: 1.2rem;
+    }
+
+    .btn{
+        padding: 8px!important;
+        font-size: 0.5rem !important;
+        margin-left: 10px;
+    }
+
+    #search{
+       
+        font-size: 1.3rem;
+        margin-left: 5px;
+        width: 5vw;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+
+    .inputbox {
+        font-size: 1rem;
+    }
+
+    #result {
+        font-size: 1rem;
+    }
+
+    .btn{
+        padding: 8px!important;
+        font-size: 0.5rem !important;
+        margin-left: 10px;
+    }
+
+    #search{
+       
+        font-size: 1.1rem;
+        margin-left: 5px;
+        width: 5vw;
     }
 
 }
